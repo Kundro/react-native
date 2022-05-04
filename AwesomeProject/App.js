@@ -9,7 +9,8 @@ const Header = () => {
       </View>
       <ScrollView>
         <View style={styles.main}>
-        <Text style={styles.mainText}>My full name is Alexey Kundro. I'm 23. {'\n'}_______________{'\n'}{'\n'} I graduated from Belarusian National Technical University with an Engineering degree in 2020. After graduating I worked as a gas supply engineer.{'\n'}_______________{'\n'}{'\n'}Throughout this work I've been interested in IT. I started learning the programming basics using the C++ language as an example. But I was interested in the designing aspect, the visual elements of a websites or applications, the parts of this applications which i'll can see. And i decided to opt for the frontend. I thought it would be great for me. But also i have a good logical thinking.{'\n'}_______________{'\n'}{'\n'}Contacts: exey.kundro@gmail.com</Text>
+        <Text style={styles.mainText}>My full name is Alexey Kundro. I'm 23. {'\n'}{'\n'}I graduated from Belarusian National Technical University with an engineering degree in 2020. After graduating I worked as a gas supply engineer.{'\n'}{'\n'}Throughout this work I've been interested in IT.{'\n'}I started learning the programming basics using the C++ language as an example. But I was interested in the designing aspect at start. I'm interested in working with the visual elements of a websites or applications, the parts of this applications which i'll can see when the work is completed. So i decided to opt for the frontend. I thought it would be great for me. But also i have a good logical thinking.{'\n'}{'\n'}Contacts: exey.kundro@gmail.com
+        </Text>
         </View>
       </ScrollView>
     </View>
@@ -26,8 +27,8 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 16,
     paddingTop: 20,
     padding: 10,
-    display: 'block',
-    width: '100%',
+    // display: 'block',
+    // width: 100,
     backgroundColor: 'rgba(255, 136, 136, 1)'
   },
   main:{
