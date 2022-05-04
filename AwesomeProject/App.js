@@ -1,15 +1,15 @@
 import React from 'react';
-import { Component, StyleSheet, View, Text, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, ScrollView } from 'react-native';
 
 const Header = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-      <Text style={styles.boldText}> Hi! I'am Alexey Kundro.</Text><Text style={styles.commonText}>Let me introduce myself</Text>
+      <Text style={styles.boldText}> Hi! I'am Alexey.</Text><Text style={styles.commonText}>Let me introduce myself</Text>
       </View>
       <ScrollView>
         <View style={styles.main}>
-        <Text style={styles.mainText}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</Text>
+        <Text style={styles.mainText}>My full name is Alexey Kundro. I'm 23. {'\n'}_______________{'\n'}{'\n'} I graduated from Belarusian National Technical University with an Engineering degree in 2020. After graduating I worked as a gas supply engineer.{'\n'}_______________{'\n'}{'\n'}Throughout this work I've been interested in IT. I started learning the programming basics using the C++ language as an example. But I was interested in the designing aspect, the visual elements of a websites or applications, the parts of this applications which i'll can see. And i decided to opt for the frontend. I thought it would be great for me. But also i have a good logical thinking.{'\n'}_______________{'\n'}{'\n'}Contacts: exey.kundro@gmail.com</Text>
         </View>
       </ScrollView>
     </View>
@@ -24,8 +24,10 @@ const styles = StyleSheet.create({
   header: {
     borderBottomLeftRadius: 16,
     borderBottomRightRadius: 16,
+    paddingTop: 20,
     padding: 10,
-    width: 412,
+    display: 'block',
+    width: '100%',
     backgroundColor: 'rgba(255, 136, 136, 1)'
   },
   main:{
@@ -41,8 +43,8 @@ const styles = StyleSheet.create({
   },
   mainText:{
     padding: 10,
-    fontSize: 20,
-    color: 'black',
+    fontSize: 18,
+    color: 'dimgrey',
     fontFamily: 'Roboto',
     textAlign: 'center'
   },
