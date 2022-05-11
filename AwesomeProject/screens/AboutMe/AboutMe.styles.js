@@ -1,17 +1,18 @@
 import {StyleSheet} from 'react-native';
+import colors from '../../res/colors';
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
-    backgroundColor: 'white',
+    backgroundColor: colors.white,
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
   },
   header: {
     padding: 10,
-    backgroundColor: 'white',
+    backgroundColor: colors.white,
     borderBottomWidth: 1,
-    borderBottomColor: 'dimgrey'
+    borderBottomColor: colors.dimgrey
   },
   main: {
     flex: 1,
@@ -21,14 +22,15 @@ const styles = StyleSheet.create({
   mainText: {
     padding: 7,
     fontSize: 18,
-    color: 'dimgrey',
+    color: colors.text,
     fontFamily: 'Roboto',
+    // fontWeight: '',
     textAlign: 'center',
   },
   boldText: {
     fontWeight: 'bold',
-    fontSize: 24,
-    color: 'black',
+    fontSize: 28,
+    color: colors.text,
     fontFamily: 'Roboto',
     textAlign: 'center',
   },
@@ -36,5 +38,3 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
-
-export default styles;
