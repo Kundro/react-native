@@ -5,10 +5,7 @@ import styles from './AboutMe.styles';
 AboutMe = () => {
   return (
     <View style={styles.container}>
-      <ScrollView>
-        <View style={styles.header}>
-          <Text style={styles.boldText}>Alexey Kundro</Text>
-        </View>
+      <ScrollView>  
         <View style={styles.main}>
           <Text style={styles.mainText}>
             Let me introduce myself. My full name is Alexey Kundro. I'm 23. I
