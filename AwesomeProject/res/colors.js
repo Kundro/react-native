@@ -7,5 +7,3 @@ export default {
     fonBlue: 'rgba(179, 217, 236, 0.8)',
     text: 'rgba(64, 71, 75, 1)'
 }
-
-// export default { red: 'red', dimgrey: 'dimgrey'};
