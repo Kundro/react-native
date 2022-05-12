@@ -6,13 +6,13 @@ export default StyleSheet.create({
     backgroundColor: colors.white,
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   header: {
     padding: 10,
     backgroundColor: colors.white,
     borderBottomWidth: 1,
-    borderBottomColor: colors.dimgrey
+    borderBottomColor: colors.dimgrey,
   },
   main: {
     flex: 1,
