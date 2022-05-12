@@ -20,7 +20,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
   },
   buttonProfile: {
-    backgroundColor: colors.red
+    backgroundColor: colors.red,
   },
   mainText: {
     padding: 7,
