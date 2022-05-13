@@ -2,9 +2,8 @@ import React from 'react';
 import {View, Text, ScrollView} from 'react-native';
 import styles from './AboutMe.styles';
 
-AboutMe = () => (
-  <View style={styles.container}>
-    <ScrollView>
+export default AboutMe = () => (
+    <ScrollView style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.mainText}>
           Let me introduce myself. My full name is Alexey Kundro. I'm 23. I
@@ -24,7 +23,4 @@ AboutMe = () => (
         <Text style={styles.mainText}>Contacts: exey.kundro@gmail.com</Text>
       </View>
     </ScrollView>
-  </View>
 );
-
-export default AboutMe;

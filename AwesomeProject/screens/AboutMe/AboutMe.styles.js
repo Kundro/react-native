@@ -4,9 +4,6 @@ import colors from '../../res/colors';
 export default StyleSheet.create({
   container: {
     backgroundColor: colors.white,
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   header: {
     padding: 10,

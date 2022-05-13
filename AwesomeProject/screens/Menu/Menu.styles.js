@@ -4,9 +4,6 @@ import colors from '../../res/colors';
 export default StyleSheet.create({
   container: {
     backgroundColor: colors.white,
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   header: {
     padding: 10,
@@ -20,7 +17,12 @@ export default StyleSheet.create({
     justifyContent: 'center',
   },
   buttonProfile: {
-    backgroundColor: colors.red,
+    backgroundColor: colors.white,
+    padding: 20,
+    borderWidth: 1,
+    borderRadius: 5,
+    borderColor: colors.dimgrey
+
   },
   mainText: {
     padding: 7,
