@@ -1,10 +1,14 @@
 import React from 'react';
 import {View, Text, ScrollView} from 'react-native';
-import styles from './AboutMe.styles';
+import styles from '../../styles/AboutMe.styles';
 
-export default AboutMe = () => (
+export default AboutMe = () => {
+  return (
     <ScrollView style={styles.container}>
       <View style={styles.main}>
+        <Text style={styles.titleText}>
+          About Me
+        </Text>
         <Text style={styles.mainText}>
           Let me introduce myself. My full name is Alexey Kundro. I'm 23. I
           graduated from Belarusian National Technical University with an
@@ -20,7 +24,8 @@ export default AboutMe = () => (
           decided to opt for the frontend. I thought it would be great for me.
           But also i have a good logical thinking.
         </Text>
-        <Text style={styles.mainText}>Contacts: exey.kundro@gmail.com</Text>
+        <Text style={styles.lowText}>Contacts: exey.kundro@gmail.com</Text>
       </View>
     </ScrollView>
-);
+  );
+};

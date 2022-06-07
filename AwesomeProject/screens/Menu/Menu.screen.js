@@ -1,18 +1,12 @@
 import React from 'react';
-import {Text, TouchableOpacity, View, ScrollView} from 'react-native';
-import styles from '../Menu/Menu.styles';
+import Button from '../../Components/Button';
+import {ABOUT_ME_SCREEN} from '../../config/Constants';
 
-export default function Menu({navigation}) {
-  const loadScene = () => {
-    navigation.navigate('ABOUT_ME_SCREEN');
-  };
+export default Menu = ({navigation}) => {
   return (
-    <ScrollView style={styles.container}>
-      <View style={styles.main}>
-        <TouchableOpacity onPress={loadScene} style={styles.buttonProfile}>
-          <Text>PROFILE</Text>
-        </TouchableOpacity>
-      </View>
-    </ScrollView>
+      <Button
+        onPress={() => navigation.navigate(ABOUT_ME_SCREEN)}
+        name="Profile"
+      />
   );
-}
+};

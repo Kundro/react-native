@@ -1,5 +1,5 @@
 import {AppRegistry} from 'react-native';
 import {name as appName} from './app.json';
-import Menu from './screens/Menu/Menu.screen';
+import App from './App';
 
-AppRegistry.registerComponent(appName, () => Menu);
+AppRegistry.registerComponent(appName, () => App);

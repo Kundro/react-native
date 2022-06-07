@@ -1,9 +1,11 @@
 import {StyleSheet} from 'react-native';
-import colors from '../../res/colors';
+import colors from '../res/colors';
 
 export default StyleSheet.create({
   container: {
     backgroundColor: colors.white,
+    borderTopWidth: 1,
+    borderTopColor: colors.lightgray,
   },
   header: {
     padding: 10,
@@ -21,7 +23,13 @@ export default StyleSheet.create({
     fontSize: 18,
     color: colors.text,
     fontFamily: 'Roboto',
-    // fontWeight: '',
+    textAlign: 'center',
+  },
+  lowText:{
+    padding: 7,
+    fontSize: 14,
+    color: colors.text,
+    fontFamily: 'Roboto',
     textAlign: 'center',
   },
   boldText: {
@@ -31,7 +39,10 @@ export default StyleSheet.create({
     fontFamily: 'Roboto',
     textAlign: 'center',
   },
-  centerText: {
-    textAlign: 'center',
+  titleText: {
+    fontWeight: 'bold',
+    fontSize: 22,
+    paddingTop: 10,
+    color: '#121212'
   },
 });
