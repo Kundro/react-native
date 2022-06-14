@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import colors from '../res/colors';
+import colors from '../../res/colors';
 
 export default StyleSheet.create({
   container: {
@@ -25,7 +25,7 @@ export default StyleSheet.create({
     fontFamily: 'Roboto',
     textAlign: 'center',
   },
-  lowText:{
+  lowText: {
     padding: 7,
     fontSize: 14,
     color: colors.text,
@@ -43,6 +43,6 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 22,
     paddingTop: 10,
-    color: '#121212'
+    color: '#121212',
   },
 });

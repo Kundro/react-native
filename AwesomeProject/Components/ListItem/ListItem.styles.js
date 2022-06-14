@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import colors from '../res/colors';
+import colors from '../../res/colors';
 
 export default StyleSheet.create({
   textButton: {
@@ -14,10 +14,10 @@ export default StyleSheet.create({
     borderBottomColor: colors.lightgray,
     borderTopWidth: 1,
     borderTopColor: colors.lightgray,
-},
-    iconButton: {
-        alignItems: "flex-end",
-        bottom:12,
-        right: 16,
-    }
+  },
+  iconButton: {
+    alignItems: 'flex-end',
+    bottom: 12,
+    right: 16,
+  },
 });

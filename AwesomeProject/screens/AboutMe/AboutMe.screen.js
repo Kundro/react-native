@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, ScrollView} from 'react-native';
-import styles from '../../styles/AboutMe.styles';
+import styles from './AboutMe.styles';
 
 export default AboutMe = () => {
   return (
