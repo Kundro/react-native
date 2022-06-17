@@ -1,9 +1,10 @@
 export default {
-    blue: 'blue',
-    white: 'white',
-    dimgrey: 'dimgrey',
-    black: 'black',
-    red: 'red',
-    fonBlue: 'rgba(179, 217, 236, 0.8)',
-    text: 'rgba(64, 71, 75, 1)'
-}
+  blue: 'blue',
+  white: 'white',
+  dimgrey: 'dimgrey',
+  lightgray: '#D3D3D3',
+  black: 'black',
+  red: 'red',
+  fonBlue: 'rgba(179, 217, 236, 0.8)',
+  text: '#121212',
+};
