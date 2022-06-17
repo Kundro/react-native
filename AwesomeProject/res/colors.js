@@ -7,4 +7,5 @@ export default {
   red: 'red',
   fonBlue: 'rgba(179, 217, 236, 0.8)',
   text: '#121212',
+  transparent: 'transparent',
 };

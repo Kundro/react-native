@@ -5,9 +5,9 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import styles from './ListItem.styles';
 import {Button} from '../Button/Button';
 
-export default ListItem = ({onPress, name}) => {
+export default ListItem = ({onPress, underlayColor, name}) => {
   return (
-    <Button onPress={onPress}>
+    <Button onPress={onPress} underlayColor={underlayColor}>
       <View style={styles.backButton}>
         <Text style={styles.textButton}>{name}</Text>
         <View style={styles.iconButton}>
