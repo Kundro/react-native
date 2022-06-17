@@ -10,7 +10,7 @@ import Menu from '../screens/Menu/Menu.screen';
 import AboutMe from '../screens/AboutMe/AboutMe.screen';
 import SettingsScreen from '../screens/SettingsScreen/Settings.screen';
 import colors from '../res/colors';
-import { useNavigation } from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 import SettingsButton from '../Components/SettingsButton/SettingsButton';
 
 const Stack = createStackNavigator();
@@ -26,6 +26,8 @@ export default Nav = () => {
             title: 'Menu',
             headerStyle: {
               backgroundColor: colors.white,
+              borderBottomWidth: 1,
+              borderBottomColor: colors.lightgrey,
             },
             headerTintColor: colors.black,
             headerTitleAlign: 'center',
@@ -33,10 +35,10 @@ export default Nav = () => {
               const navigation = useNavigation();
               return (
                 <SettingsButton
-                onPress={() => navigation.navigate(SETTINGS_SCREEN)}
-                underlayColor={colors.transparent}
-              />
-              )
+                  onPress={() => navigation.navigate(SETTINGS_SCREEN)}
+                  underlayColor={colors.transparent}
+                />
+              );
             },
           }}
         />
@@ -46,21 +48,32 @@ export default Nav = () => {
           options={{
             title: 'Alexey Kundro',
             headerTitleAlign: 'center',
+            headerStyle: {
+              borderBottomWidth: 1,
+              borderBottomColor: colors.lightgrey,
+            },
             headerRight: function () {
               const navigation = useNavigation();
               return (
                 <SettingsButton
-                onPress={() => navigation.navigate(SETTINGS_SCREEN)}
-                underlayColor={colors.transparent}
-              />
-              )
+                  onPress={() => navigation.navigate(SETTINGS_SCREEN)}
+                  underlayColor={colors.transparent}
+                />
+              );
             },
           }}
         />
         <Stack.Screen
           name={SETTINGS_SCREEN}
           component={SettingsScreen}
-          options={{title: 'Settings', headerTitleAlign: 'center'}}
+          options={{
+            title: 'Settings',
+            headerTitleAlign: 'center',
+            headerStyle: {
+              borderBottomWidth: 1,
+              borderBottomColor: colors.lightgrey,
+            },
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
