@@ -22,6 +22,12 @@ export default StyleSheet.create({
   },
   themeIcon: {
     paddingTop: 16,
-    paddingHorizontal: 14,
-  }
+    paddingHorizontal: 20,
+  },
+  switch: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    paddingRight: 20,
+  },
 });
