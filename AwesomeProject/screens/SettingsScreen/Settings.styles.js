@@ -4,7 +4,7 @@ import colors from '../../res/colors';
 export default StyleSheet.create({
   text: {
     fontSize: 20,
-    padding: 10,
+    paddingVertical: 10,
     color: colors.black,
   },
   container: {
@@ -12,5 +12,16 @@ export default StyleSheet.create({
     paddingVertical: 5,
     borderBottomColor: colors.lightgray,
     borderBottomWidth: 1,
+    flexDirection: 'row',
   },
+  subtext: {
+    fontSize: 15,
+    paddingBottom: 10,
+    marginTop: -10,
+    color: colors.dimgrey,
+  },
+  themeIcon: {
+    paddingTop: 16,
+    paddingHorizontal: 14,
+  }
 });
