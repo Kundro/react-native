@@ -37,6 +37,7 @@ export default Nav = () => {
                 <SettingsButton
                   onPress={() => navigation.navigate(SETTINGS_SCREEN)}
                   underlayColor={colors.transparent}
+                  color={colors.black}
                 />
               );
             },
@@ -48,9 +49,11 @@ export default Nav = () => {
           options={{
             title: 'Alexey Kundro',
             headerTitleAlign: 'center',
+            headerTintColor: colors.white,
             headerStyle: {
               borderBottomWidth: 1,
               borderBottomColor: colors.lightgrey,
+              backgroundColor: colors.paletteProfileLight,
             },
             headerRight: function () {
               const navigation = useNavigation();
@@ -58,6 +61,7 @@ export default Nav = () => {
                 <SettingsButton
                   onPress={() => navigation.navigate(SETTINGS_SCREEN)}
                   underlayColor={colors.transparent}
+                  color={colors.white}
                 />
               );
             },
@@ -69,9 +73,11 @@ export default Nav = () => {
           options={{
             title: 'Settings',
             headerTitleAlign: 'center',
+            headerTintColor: colors.white,
             headerStyle: {
+              backgroundColor:colors.palettePrimaryDark,
               borderBottomWidth: 1,
-              borderBottomColor: colors.lightgrey,
+              borderBottomColor: colors.paletteInfoDark,
             },
           }}
         />

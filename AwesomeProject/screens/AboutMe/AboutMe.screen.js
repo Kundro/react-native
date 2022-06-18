@@ -1,10 +1,12 @@
 import React from 'react';
-import {View, Text, ScrollView} from 'react-native';
+import {View, Text, ScrollView, StatusBar} from 'react-native';
 import styles from './AboutMe.styles';
+import colors from '../../res/colors';
 
 export default AboutMe = () => {
   return (
     <ScrollView style={styles.container}>
+      <StatusBar backgroundColor={colors.paletteProfileLight} barStyle={'light-content'} />
       <View style={styles.main}>
         <Text style={styles.titleText}>
           About Me
