@@ -4,14 +4,10 @@ import colors from '../../res/colors';
 export default StyleSheet.create({
   container: {
     backgroundColor: colors.white,
-    borderTopWidth: 1,
-    borderTopColor: colors.lightgray,
   },
   header: {
     padding: 10,
     backgroundColor: colors.white,
-    borderBottomWidth: 1,
-    borderBottomColor: colors.dimgrey,
   },
   main: {
     flex: 1,

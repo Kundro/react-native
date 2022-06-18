@@ -7,4 +7,10 @@ export default {
   red: 'red',
   fonBlue: 'rgba(179, 217, 236, 0.8)',
   text: '#121212',
+  transparent: 'transparent',
+  paletteInfoMain: '#29b6f6',
+  paletteInfoLight: '#4fc3f7',
+  palettePrimaryDark: '#42a5f5',
+  paletteInfoDark: '#0288d1',
+  paletteProfileLight: '#81c784',
 };

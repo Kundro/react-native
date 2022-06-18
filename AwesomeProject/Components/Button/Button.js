@@ -1,10 +1,9 @@
 import {TouchableHighlight} from 'react-native';
 import React from 'react';
-import colors from '../../res/colors';
 
-export const Button = ({onPress, children}) => {
+export const Button = ({onPress, underlayColor, children}) => {
   return (
-    <TouchableHighlight onPress={onPress} underlayColor={colors.lightgray}>
+    <TouchableHighlight onPress={onPress} underlayColor={underlayColor}>
       {children}
     </TouchableHighlight>
   );

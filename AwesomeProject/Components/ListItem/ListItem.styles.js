@@ -12,8 +12,6 @@ export default StyleSheet.create({
     backgroundColor: colors.white,
     borderBottomWidth: 1,
     borderBottomColor: colors.lightgray,
-    borderTopWidth: 1,
-    borderTopColor: colors.lightgray,
   },
   iconButton: {
     alignItems: 'flex-end',
